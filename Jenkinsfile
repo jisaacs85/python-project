@@ -20,7 +20,7 @@ pipeline {
                     doGenerateSubmoduleConfiguration: false,
                     extension: [],
                     submoduleCfg: [],
-                    userRemoteConfigs: [[credentialsId: 'jenkins-deploy', url: 'ssh://git@github.com:jisaacs85/python-project.git']]
+                    userRemoteConfigs: [[credentialsId: 'jenkins-deploy', url: 'git@github.com:jisaacs85/python-project.git']]
                 ])
             }
         }
