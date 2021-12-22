@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        git(credentialsId: 'jisaacs85-git', branch: 'master', url: 'git@github.com:jisaacs85/python-project.git')
+        git(credentialsId: 'jenkins-deploy', branch: 'master', url: 'git@github.com:jisaacs85/python-project.git')
       }
     }
 
